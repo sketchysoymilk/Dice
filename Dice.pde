@@ -37,11 +37,6 @@ class Die //models one single dice cube
   {
     numDots = (int)(Math.random()*6+1);
   }
-  void twos()
-  {
-    ellipse(myX + 7.5, myY + 15, 5,5);
-    ellipse(myX +22.5,myY+15,5,5);
-  }
   void show()
   {
     fill(255);
